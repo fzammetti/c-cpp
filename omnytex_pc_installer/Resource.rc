@@ -1,0 +1,162 @@
+//Microsoft Developer Studio generated resource script.
+//
+#include "resource.h"
+
+#define APSTUDIO_READONLY_SYMBOLS
+/////////////////////////////////////////////////////////////////////////////
+//
+// Generated from the TEXTINCLUDE 2 resource.
+//
+#include "afxres.h"
+
+/////////////////////////////////////////////////////////////////////////////
+#undef APSTUDIO_READONLY_SYMBOLS
+
+/////////////////////////////////////////////////////////////////////////////
+// English (U.S.) resources
+
+#if !defined(AFX_RESOURCE_DLL) || defined(AFX_TARG_ENU)
+#ifdef _WIN32
+LANGUAGE LANG_ENGLISH, SUBLANG_ENGLISH_US
+#pragma code_page(1252)
+#endif //_WIN32
+
+#ifdef APSTUDIO_INVOKED
+/////////////////////////////////////////////////////////////////////////////
+//
+// TEXTINCLUDE
+//
+
+1 TEXTINCLUDE DISCARDABLE 
+BEGIN
+    "resource.h\0"
+END
+
+2 TEXTINCLUDE DISCARDABLE 
+BEGIN
+    "#include ""afxres.h""\r\n"
+    "\0"
+END
+
+3 TEXTINCLUDE DISCARDABLE 
+BEGIN
+    "\r\n"
+    "\0"
+END
+
+#endif    // APSTUDIO_INVOKED
+
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// Icon
+//
+
+// Icon with lowest ID value placed first to ensure application icon
+// remains consistent on all systems.
+IDI_ICON                ICON    DISCARDABLE     "icon.ico"
+IDI_INFO                ICON    DISCARDABLE     "info.ico"
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// Dialog
+//
+
+IDD_WELCOME DIALOG DISCARDABLE  0, 0, 460, 220
+STYLE DS_MODALFRAME | DS_CENTER | WS_POPUP | WS_CAPTION
+FONT 8, "MS Sans Serif"
+BEGIN
+    CONTROL         103,IDC_STATIC,"Static",SS_BITMAP | SS_SUNKEN,16,18,215,
+                    149
+    CONTROL         "",IDC_STATIC,"Static",SS_BLACKFRAME | SS_SUNKEN,16,191,
+                    430,1
+    PUSHBUTTON      "Cancel",IDC_CANCEL,341,197,49,14
+    PUSHBUTTON      "Next >",IDC_NEXT,397,197,49,14
+    ICON            IDI_ICON,IDC_STATIC,244,16,20,20
+    LTEXT           "",IDC_WELCOME1,276,16,170,24
+    LTEXT           "It is strongly recommended that you exit all Widnows programs before running this setup program.",
+                    IDC_STATIC,242,53,204,18
+    LTEXT           "Click Cancel to quit setup and then close any programs you have running.  Click Next to continue with the setup program.",
+                    IDC_STATIC,242,80,204,18
+    LTEXT           "WARNING: This program is protected by copyright law and international treaties.",
+                    IDC_STATIC,242,118,204,18
+    LTEXT           "Unauthorized reproduction or distribution of this program, or any portion of it, may result in sever civil and criminal penalties, and will be prosecuted to the maximum extent possible under law.",
+                    IDC_STATIC,242,145,204,26
+END
+
+IDD_EULA DIALOG DISCARDABLE  0, 0, 460, 220
+STYLE DS_MODALFRAME | DS_CENTER | WS_POPUP | WS_CAPTION
+CAPTION "End User License Agreement (EULA)"
+FONT 8, "MS Sans Serif"
+BEGIN
+    CONTROL         "",IDC_STATIC,"Static",SS_BLACKFRAME | SS_SUNKEN,16,191,
+                    430,1
+    PUSHBUTTON      "Decline",IDC_DECLINE,341,197,49,14
+    PUSHBUTTON      "Accept",IDC_ACCEPT,397,197,49,14
+    ICON            IDI_ICON,IDC_STATIC,16,6,20,20
+    LTEXT           "Please read the following License Agreement.  Use the scroll bar to view the rest of the agreement.",
+                    IDC_STATIC,50,6,392,18
+    PUSHBUTTON      "< Back",IDC_BACK,291,197,49,14
+    EDITTEXT        IDC_EULA_TEXT,16,33,430,131,ES_MULTILINE | ES_READONLY | 
+                    WS_VSCROLL
+    LTEXT           "",IDC_EULA1,16,169,430,18
+END
+
+IDD_INFO DIALOG DISCARDABLE  0, 0, 460, 220
+STYLE DS_MODALFRAME | DS_CENTER | WS_POPUP | WS_CAPTION
+FONT 8, "MS Sans Serif"
+BEGIN
+    CONTROL         "",IDR_TEXT2,"Static",SS_BLACKFRAME | SS_SUNKEN,16,191,
+                    430,1
+    ICON            IDI_ICON,IDR_TEXT2,16,16,21,20
+    LTEXT           "By default, the game will be installed in the following directory:",
+                    IDR_TEXT2,48,16,208,28
+    PUSHBUTTON      "Cancel",IDC_CANCEL,341,197,49,14
+    PUSHBUTTON      "Next >",IDC_NEXT,397,197,49,14
+    PUSHBUTTON      "< Back",IDC_BACK,291,197,49,14
+    EDITTEXT        IDC_EDIT_DIRECTORY,16,75,374,14,ES_AUTOHSCROLL
+    PUSHBUTTON      "Click to change destination",IDC_DIRECTORY,16,94,116,19
+END
+
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// Bitmap
+//
+
+IDB_SIDEIMAGE1          BITMAP  DISCARDABLE     "SideImage1.bmp"
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// String Table
+//
+
+STRINGTABLE DISCARDABLE 
+BEGIN
+    IDS_APP_NAME            "IO Lander"
+    IDS_APP_VERSION         "1.0"
+    IDS_EULA1               "Crackhead Creations\r\nSoftware License Agreement\r\n\r\n"
+    IDS_EULA2               "Io Lander is Copyright (c)2003 by Anthony Volpe. ""Crackhead Creations"" and the crackhead logo are trademarks of Anthony Volpe.\r\n\r\n"
+    IDS_APP_CLASS           "OTXINSTALL"
+    IDS_EULA3               "Io Lander is published exclusively by Crackhead Creations.  The distribution of this product is intended for the use of the original purchaser only and for use only on the computer system specified.  Lawful users of this program are hereby licensed only to extract the program from its installer and run the program into the memory of a computer solely for the purpose of executing the program.  Copying (except for one backup on systems that provide for it), duplicating, selling, or otherwise distributing this product is a violation of applicable laws. Crackhead Creations does not grant permission to distribute the software for profit in any form, including but not limited to, electronic information service distribution, bulletin board distribution, magnetic or optical medium distribution.  "
+    IDS_EULA4               "Not-for-profit distribution is prohibited without the explicitly written permission from Crackhead Creations.  Willful violations of the Copyright Law of the United States can result in civil damages of up to $50,000 in addition to actual damages, plus criminal penalties of up to one year imprisonment and/or $10,000 fine. In addition, violation of the Copyright law of other jurisdictions may result in civil damages and, in certain circumstances, criminal penalties."
+    IDS_EULA5               "\r\n\r\nCrackhead Creations is not responsible for any damage to the purchaser's computer system or data and in no event will Crackhead Creations, its officers, directors, employees or agents be responsible to the purchaser for any consequential, incidental, or indirect damages (including damages for loss of business profits, business interruption, loss of business information and the like) arising out of the use or inability to use the Crackhead Creations product, even if Crackhead Creations has been advised of the possibility of such damages.  "
+    IDS_EULA6               "Because some states do not allow the exclusion or limitation of liability for consequential or incidental damages, the above limitations may not apply to you."
+    IDS_EULA7               " "
+END
+
+#endif    // English (U.S.) resources
+/////////////////////////////////////////////////////////////////////////////
+
+
+
+#ifndef APSTUDIO_INVOKED
+/////////////////////////////////////////////////////////////////////////////
+//
+// Generated from the TEXTINCLUDE 3 resource.
+//
+
+
+/////////////////////////////////////////////////////////////////////////////
+#endif    // not APSTUDIO_INVOKED
+
